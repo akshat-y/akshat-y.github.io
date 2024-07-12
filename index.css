@@ -169,6 +169,7 @@ nav{
 
     section#home{
         /* padding-top: 200px; */
+        line-height: 1.2 !important;
         height: max(100vh, 500px);
         display: flex;
         flex-direction: column;
