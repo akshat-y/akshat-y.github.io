@@ -363,10 +363,6 @@ nav{
         align-items: center;
         justify-content: center;
         
-        p{
-            /* max-width: 550px;             */
-        }
-
         a{
             /* background: repeating-linear-gradient(
                 -45deg, 
@@ -376,6 +372,9 @@ nav{
                 transparent 10px
             );
             background-color: var(--primary-color); */
+            display: block;
+            margin: 30px auto 0;
+            width: fit-content;            
             text-decoration: none;
             background-color: transparent;
             border: solid 1px var(--primary-color);
